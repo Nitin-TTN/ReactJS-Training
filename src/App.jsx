@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Form from './Form';
 
 const App = () => {
   const [userName, setUserName] = useState('');
@@ -30,6 +31,10 @@ const App = () => {
           ))}
         </ul>
       </div>
+      <hr />
+      <h1>Question 2</h1>
+      <h2>Form</h2>
+      <Form/>
     </div>
   );
 };
